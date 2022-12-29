@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;600&display=swap');
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+body{
+    background-image: url("imgs/background.png");
+}
+.menu{
+    width: 100%;
+    height: 200px;
+    background:url("imgs/header1.png") center/cover no-repeat;
+    box-shadow: 0 0 10px black;
+}
+.sidebar{
+    width: 180px;
+    position: fixed;
+    left: 30px;
+    top: 200px;
+    background-color: #8c8b91;
+    padding: 5px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px black;
+}
+.sidebar a{
+    display: block;
+    margin: 5px;
+    color: rgb(238, 181, 60);
+    font-size: 20px;
+    text-decoration: none;
+    border-bottom: 1px dashed rgb(96, 94, 94);
+    transition: 0.5s;
+}
+.sidebar a:hover{
+    color: black;
+}
+.sidebar p{
+    font-size: 25px;
+}
+h1{
+    line-height: 200px;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 600;
+    color: white;
+    text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+    background-color: #B5B4BD;
+    padding: 25px;
+    display: block;
+    border-radius: 0 0 40px 40px;
+    box-shadow: 0 0 10px black; 
+}
+.intro img{
+    width: 525px;
+    height: 276px;
+    margin: 20px 40px;
+    border: 4px solid black;
+    border-radius: 20px;
+    display: inline-block;
+
+}
+.introimg{
+    text-align: center ;
+}
+.intro p{
+    margin: 20px 0;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: #9e9da4;
+}
+.quote{
+    margin: 30px auto;
+    padding: 10px 20px;
+    width: 55%;
+    border: 2px solid rgb(238, 181, 60);
+    background-color: #B5B4BD;
+    text-align: center;
+}
+.quote img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: 2px solid black;
+    float: left;
+}
+.quote p{
+    font-size: 33px;
+}
+.quotion{
+    color: rgb(222, 186, 109);
+    text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin-top: 20px;
+}
+.tolstoyimg{
+    margin-top: 20px;
+}
+.reasons-card{
+    width: 20%;
+    display: inline-block;
+    background-color: aliceblue;
+    margin: 25px;
+    padding: 15px;
+    text-align: center;
+    height: 300px;
+    vertical-align: top;
+    border: 3px solid rgb(238, 181, 60);
+    border-radius: 10px;
+}
+.reasons-card img{
+    width: 128px;
+    height: 128px;
+    margin-bottom: 10px;
+}
+h2{
+    margin: 50px;
+    font-size: 45px;
+    text-align: center
+}
+.reasons-card h3{
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+.reasons{
+    text-align: center;
+    width: 1200px;
+    margin: auto;
+}
+.reasons-card p{
+    font-size: 20px;
+}
+.types p{
+    font-size: 30px;
+    text-align: left;
+    margin: 25px;
+    line-height: 40px;
+}
+.view{
+    display: block;
+    padding:1px 10px 20px 50px;
+}
+.pros-and-cones{
+    font-size: 30px
+}
+.pros-and-cones p{
+    margin-top: 40px;
+    font-weight: 600;
+}
+.pros{
+    list-style-type: "✔️";
+}
+.cones{
+    list-style-type:"❌";
+}
+.benefit p{
+    font-size: 30px;
+    text-align: left;
+    padding: 20px;
+    line-height: 40px;
+}
+.Most-famous-war p{
+    text-align: left;
+    font-size: 30px;
+    line-height: 40px;
+    padding: 10px;
+}
+.Most-famous-war img{
+    top: 0;
+    float: right;
+    width: 40%;
+    height: 300px ;
+    border-radius: 20px;
+    border: 2px solid rgb(238, 181, 60);
+}
+.conclusion{
+    font-size: 30px;
+    line-height: 40px;
+}
+.footer{
+    width: 100%;
+    height: 10vh;
+    padding: 15px;
+    background-color:rgba(0, 0, 0, 0.161);
+    margin-top: 20px;
+}
+.footer h2{
+    font-size: 25px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.footerlinks{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+span{
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    vertical-align: top;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.footerlinks a{
+    color: white;
+    display: inline-block;
+    transition: 1s;
+}
+.footerlinks a:hover{
+    color: gray;
+    transform: scale(1.1);
+}
+.footerlinks img{
+    width: 32px;
+}
